@@ -1,0 +1,9 @@
+{
+  "name": "usb-can",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "serialport": ">=10.0.0"
+  }
+}
