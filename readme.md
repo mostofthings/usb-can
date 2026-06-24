@@ -1,4 +1,4 @@
-# usb-can
+# ch340-can
 
 An EventEmitter-based Node.js driver for USB-CAN adapters using the CH340/CH341 chip and Seeed binary frame protocol. Compatible with the Seeed Studio USB-CAN Analyzer and similar generic adapters commonly available under various brand names.
 
@@ -7,13 +7,13 @@ An EventEmitter-based Node.js driver for USB-CAN adapters using the CH340/CH341 
 ## Installation
 
 ```bash
-npm install usb-can
+npm install ch340-can
 ```
 
 ## Usage
 
 ```javascript
-const CanBus = require('usb-can');
+const CanBus = require('ch340-can');
 
 const bus = new CanBus('/dev/ttyUSB0', { bitrate: 500 });
 
