@@ -1,9 +1,11 @@
 {
   "name": "usb-can",
+  "description": "An EventEmitter-based Node.js driver for USB-CAN adapters using the CH340/CH341 chip and Seeed binary frame protocol",
   "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "peerDependencies": {
     "serialport": ">=10.0.0"
-  }
+  },
+  "license": "MIT"
 }
